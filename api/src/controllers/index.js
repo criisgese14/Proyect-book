@@ -42,10 +42,10 @@ const editBook = async (data, id) => {
 
         await Book.findByIdAndUpdate(id, newBook);
         
-        return 'book updated';
+        return 'Book updated';
 
     } catch (error) {
-        console.log("no se pudo modificar el libro", error);
+        console.log("Failed to update book", error);
     };
 }
 
@@ -54,7 +54,7 @@ const deleteBook = async (id) => {
         await Book.findByIdAndRemove(id);
         return 'Book has been deleted';  
     } catch (error) {
-        console.log("failed to delete book");
+        console.log("Failed to delete book");
     };
 };
 
@@ -63,9 +63,9 @@ const postBook = async (data) => {
 try {
     const book = new Book(data);
     await book.save();
-    return 'Libro agregado correctamente';    
+    return 'Book created successfully';    
 } catch (error) {
-    console.log('no se pudo crear el libro');
+    console.log('Failed to create book');
 };
 
 }
@@ -84,7 +84,7 @@ const loadDB = async () => {
             Book.create(dataRow)        
         })
         .on('end', () => {
-            console.log("Batabase loader sucesfully");
+            console.log("Batabase loader successfully");
     });
     } else {
         console.log("Batabase is loader");

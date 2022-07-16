@@ -3,9 +3,9 @@ const mongoose = require('mongoose');
 (async () => {
     try {
         const db = await mongoose.connect(`mongodb://localhost/booksDb`);
-        console.log('database is connected to:', db.connection.name);
+        console.log('Database is connected to:', db.connection.name);
     } catch (error) {
-        console.log('hubo un error al conectar con la base', error);
+        console.log('Failed to connect to database', error);
     };
 })();
 

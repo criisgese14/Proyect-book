@@ -8,7 +8,7 @@ router.post('/', async (req, res) => {
         const book = await getBook(data);
         res.json(book);
     } catch (error) {
-        console.log('book not found', error);
+        console.log(error);
     };
 });
 
@@ -28,7 +28,7 @@ router.post('/create', async (req, res) => {
         const response = await postBook(data);
         res.json(response);
     } catch (error) {
-        console.log('failes to create, ', error);
+        console.log(error);
     };
 });
 
@@ -39,7 +39,7 @@ router.put('/:id', async (req, res) => {
         const book = await editBook(data, id);
         res.json(book);
     } catch (error) {
-        console.log("updated failed", error);
+        console.log(error);
     };
 });
 
