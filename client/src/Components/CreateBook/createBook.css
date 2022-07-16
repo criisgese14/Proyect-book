@@ -1,0 +1,64 @@
+.input-row {
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-create {
+    text-align: center;
+}
+
+.input-form {
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 0.1rem solid black;
+}
+
+.input-create {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-create-publisher {
+    margin: 1rem;
+    margin-right: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.button1-form-create {
+    cursor: pointer;
+    margin: 2rem 2rem 1rem 0;
+    padding: 0.8rem;
+    border-radius: 1rem;
+}
+
+.button1-form-create-disabled {
+    cursor: not-allowed;
+    margin: 2rem 2rem 1rem 0;
+    padding: 0.8rem;
+    border-radius: 1rem;
+}
+
+.button2-form-create {
+    cursor: pointer;
+    padding: 0.8rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+
+.labels {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.error {
+    font-size: 0.8rem;
+    margin: 0;
+    color: red;
+}

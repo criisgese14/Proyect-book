@@ -1,0 +1,88 @@
+.book-container {
+    position: relative;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto;
+    border-radius: 1rem;
+    border: 0.2rem solid black;
+    align-items: center;
+}
+
+.book-card {
+    overflow: hidden;
+    width: 100%;
+}
+
+
+.book-detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.title-book {
+    text-align: center;
+    border: 0.15rem solid black;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+.img-book {
+    object-fit: cover;
+    width: 19vh;
+    height: 22vh;
+    margin-bottom: 1rem;
+    margin-right: 3rem;
+}
+
+.button-book {
+    margin-right: 1rem;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+
+
+.input-container-edit {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: center;
+}
+
+.input-edit {
+    padding-top: 1rem;
+    border: none;
+    border-bottom: 0.1rem solid black;
+}
+
+.form-edit {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    border: 0.2rem solid black;
+    border-radius: 2rem;
+    margin: 2rem auto;
+    padding: 1rem 0;
+}
+
+.buttons-edit{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.button-edit{
+    cursor: pointer;
+    margin: 0 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.button-book {
+    display: flex;
+}

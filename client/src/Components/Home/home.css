@@ -1,0 +1,118 @@
+.title {
+    text-align: center;
+    margin-right: 2rem;
+}
+
+.search-book {
+    border-top-left-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+    padding: 1rem 11rem 1rem 1rem;
+    border: 0.2rem solid grey;
+    font-size: 1.5rem;
+}
+
+.search-button {
+    cursor: pointer;
+    padding: 1.9rem 1.5rem 1.4rem ;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    border: none
+}
+
+.advanced-button {
+    margin-left: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 0.2rem solid black;
+    cursor: pointer;
+}
+
+.input-advanced {
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 0.2rem solid gray;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+}
+
+.input-pair {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.button-pair {
+    text-align: center;
+    margin-top: 1.3rem;
+}
+
+
+.form-simple {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2.6rem;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.button-create {
+    margin-top: 1.5rem;
+    padding: 0.8rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.button-form {
+    cursor: pointer;
+    margin: 0 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.order-book {
+    margin-top: 3rem;
+    margin-left: 4rem;
+    display: flex;
+}
+
+.result-book {
+    margin: 3.2rem 0 0 0;
+}
+
+.order-title {
+    margin: 0;
+    padding-top: 0.2rem;
+}
+
+.select {
+    border-radius: 1rem;
+    margin-left: 1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.subtitle {
+    padding: 0;
+    margin-left: 15rem;
+}
+
+.subtitle-search {
+    padding: 0;
+    padding-left: 6rem;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+}
+
+.header-order {
+    display: flex;
+    justify-content: space-around;
+}
