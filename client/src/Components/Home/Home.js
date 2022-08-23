@@ -89,7 +89,7 @@ export const Home = () => {
         <div>
             <div className="nav">
             <div className="header">
-            <h1 className="title">Welcome to books's directory!</h1>
+            <h1 className="title">Welcome to Book Directory!</h1>
             <div>
             <Link to='/create'><button className="button-create">Create book</button></Link>
             </div>
